@@ -49,19 +49,22 @@ Filter by Category/Tags: Filter blog posts by categories or tags to view relevan
 
 Comments Section: (Optional) Engage with posts by leaving comments.
 
-Customization
-Add Blog Posts: You can manually add blog posts by modifying the data source or integrating a backend API.
-Categories & Tags: Customize the blog categories and tags by modifying the configuration or API.
-Admin Panel: Add admin functionalities to allow users to create, edit, and delete posts.
-Styling: Modify the design and layout by editing the CSS or using a CSS-in-JS solution.
-Example
+
+## Example
 When you open the app:
 
 You will see a list of recent blog posts, each with a title and excerpt.
+
 Clicking on a post takes you to the full article, where you can read and leave comments (if enabled).
+
 A search bar and category filters are available to help users find specific posts.
-Dependencies
+
+## Dependencies
+
 React: Frontend framework for building the UI.
+
 React Router: For routing between different pages (e.g., home, post details, etc.).
+
 Axios: For handling API requests (optional, if fetching data from a backend).
+
 CSS or Styled Components: For styling the blog layout and components.
